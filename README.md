@@ -39,18 +39,6 @@ python train.py
 ```
 This will train the hand scanner model.
 
-### ❶3️⃣ Evaluate the Model
-```bash
-python evaluate.py
-```
-This script tests the model and provides accuracy metrics.
-
-### ❶4️⃣ Perform Image Classification
-```bash
-python classify_image.py --image <path_to_image>
-```
-Replace `<path_to_image>` with the image file path.
-
 ### ❶5️⃣ Run Real-Time Detection
 ```bash
 python real_time_hand_scan.py
@@ -84,7 +72,7 @@ Hand_Scanner/
 ## ❗ Notes
 - Ensure you have **Python 3.8+** installed.
 - If the `.h5` model file is missing, train the model first using `train.py` or download it from the provided source.
-
+- ⚠️This project needs Hardware devices like hand scanning sensors and UV sensors to make this project fully working!!
 ---
 
 ### 📩 Contributions & Issues
